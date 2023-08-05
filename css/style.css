@@ -66,4 +66,7 @@ input:hover{
         line-height: 0.75em;
         font-weight: 900;
     }
+        #subtitle{
+        font-size: 1em;
+    }
 }
