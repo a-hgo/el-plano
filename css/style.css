@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+    background-color: rgba(0, 0, 0, 0.782);
+
+}
+#content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    color: darkgoldenrod;
+    font-family: 'Playfair Display', serif;
+    font-size: 7em;
+    line-height: 0.75em;
+    font-weight: 900;
+}
+span{
+    color: #ffebcd;
+}
+#subtitle{
+    color: #ffebcd;
+    line-height: 60px;
+    font-size: 1.3em;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+input{
+    padding: 10px 40px;
+    background-color: darkgoldenrod;
+    color: #ffebcd;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 1em;
+}
+input:hover{
+    background-color: rgb(214, 184, 107);
+}
+
+@media screen and (max-width: 700px){
+    .text{
+        font-size: 5em;
+        line-height: 0.75em;
+        font-weight: 900;
+    }
+    #subtitle{
+        font-size: 1em;
+    }
+}
